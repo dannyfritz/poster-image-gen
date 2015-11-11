@@ -1,7 +1,7 @@
 var fs = require('fs')
 var express = require('express')
 var tempfile = require('tempfile')
-var renderPage = require('phantom-render').render
+var renderPage = require('./phantom-render/lib').render
 var handlebars = require('handlebars')
 
 var templateHtml = fs.readFileSync('./index.hb', 'utf8')

@@ -1,0 +1,48 @@
+{
+  "name": "phantom-render",
+  "version": "0.0.1",
+  "author": {
+    "name": "Paul Nechifor",
+    "email": "paul@nechifor.net",
+    "url": "http://nechifor.net/"
+  },
+  "main": "./lib",
+  "scripts": {
+    "preinstall": "rm -fr lib; coffee --compile --bare --output lib src"
+  },
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "tmp": "0.0.23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-nechifor/phantom-render.git"
+  },
+  "license": "MIT",
+  "description": "Programatically transform web pages to images using PhantomJS.",
+  "bugs": {
+    "url": "https://github.com/paul-nechifor/phantom-render/issues"
+  },
+  "homepage": "https://github.com/paul-nechifor/phantom-render",
+  "_id": "phantom-render@0.0.1",
+  "dist": {
+    "shasum": "f600ee0901ac95d1ab71cce1a05fa93877469f6f",
+    "tarball": "http://registry.npmjs.org/phantom-render/-/phantom-render-0.0.1.tgz"
+  },
+  "_from": "phantom-render@*",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "paul-nechifor",
+    "email": "paul@nechifor.net"
+  },
+  "maintainers": [
+    {
+      "name": "paul-nechifor",
+      "email": "paul@nechifor.net"
+    }
+  ],
+  "directories": {},
+  "_shasum": "f600ee0901ac95d1ab71cce1a05fa93877469f6f",
+  "_resolved": "https://registry.npmjs.org/phantom-render/-/phantom-render-0.0.1.tgz",
+  "readme": "ERROR: No README data found!"
+}
